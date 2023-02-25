@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+ 
+.clearfix{
+    float: none;
+    clear: both;
+}
+.tbl-full{
+    width: 100%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+
+}
+
+table tr td{
+    padding: 2%;
+}
+
+.btn-primary{
+    text-align: center;
+    width: 150px;
+    background-color: #178033;
+    padding: 1%;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    border-radius: 8px;
+}
+
+.btn-primary:hover{
+    background-color: #0f6125;  
+    text-decoration: none;
+}
+
+.btn-secondary{
+    text-align: center;
+    background-color: #1ab543;
+    padding: 5%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: small;
+}
+
+.btn-secondary:hover{
+    background-color: #18a33d;
+    color: white;
+    text-decoration: none;
+}
+.btn-danger{
+    text-align: center;
+    background-color: #f25c5c;
+    padding: 5%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: small;
+}
+.btn-danger:hover{
+    background-color: #670f0f;
+    text-decoration: none;
+}
+
+/* CSS for Menu*/
+.menu{
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: tomato;
+}
+.menu ul li a:hover{
+    color: tomato;
+}
+
+/*CSS for main-contect*/
+.main-contect{
+/* margin: 1%; */
+    background-color: #f1f1f6;
+    padding: 3% 0;
+}
+
+.order_manage{
+    background-color: #f1f1f6;
+    padding: 3% 0;
+}
+.order_wrapper{
+    padding: 1%;
+    width: 80%;
+}
+.food-wrapper{
+    padding: 1%;
+    width: 90%;
+    margin: 0 auto;
+}
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* CSS for Footer*/
+.footer{
+    background-color:tomato;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+}
+.foot{
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 15px;
+}
